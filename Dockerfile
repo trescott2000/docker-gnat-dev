@@ -13,3 +13,5 @@ RUN apt-get install -y gprbuild gnat g++ && apt-get clean
 #GUI
 RUN apt-get install -y libgtkada19-dev && apt-get clean
 
+#Unit Test
+RUN apt-get install -y libaunit19-dev libahven8-dev && apt-get clean
